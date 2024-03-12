@@ -17,7 +17,7 @@ public class DatabaseConnection {
         dbName = "tabele";
         ssl = "?autoReconnect=true&useSSL=false";
         username = "root";
-        password = "uncacat";
+        password = "";
     }
 
     public Connection getConnection() throws Exception {
